@@ -170,14 +170,14 @@ h1 {
 }
 
 .button_one::before {
-    content: url(/img/pencil.png);
+    content: url(../img/pencil.png);
     position: relative;
     top: 15px;
     left: 15px;
 }
 
 .button_one:hover:before {
-    content: url(/img/pencilhover.png);
+    content: url(../img/pencilhover.png);
     position: relative;
     top: 15px;
     left: 15px;
@@ -209,14 +209,14 @@ h1 {
 }
 
 .button_two::before {
-    content: url(/img/facebook.png);
+    content: url(../img/facebook.png);
     position: relative;
     top: 15px;
     left: 15px;
 }
 
 .button_two:hover:before {
-    content: url(/img/facebookhover.png);
+    content: url(../img/facebookhover.png);
     position: relative;
     top: 15px;
     left: 15px;
