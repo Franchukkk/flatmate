@@ -252,7 +252,6 @@ h1 {
     background-color: #fff;
     width: 1200px;
     height: 450px;
-    margin-left: 19.5%;
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -280,7 +279,7 @@ h1 {
     transition: all 0.5s ease;
 }
 
-.button_monitor1:hover{
+.button_monitor1:hover {
     box-shadow: 0px 1px 15px 2px #DF6F65;
 }
 
@@ -293,7 +292,7 @@ h1 {
     transition: all 0.5s ease;
 }
 
-.button_monitor2:hover{
+.button_monitor2:hover {
     box-shadow: 0px 1px 15px 2px #e5bb45;
 }
 
@@ -305,7 +304,7 @@ h1 {
     transition: all 0.5s ease;
 }
 
-.button_monitor3:hover{
+.button_monitor3:hover {
     box-shadow: 0px 1px 15px 2px #5bcb8b;
 }
 
@@ -341,7 +340,7 @@ h1 {
     cursor: pointer;
 }
 
-.plus p:hover{
+.plus p:hover {
     color: #454545;
 }
 
@@ -422,7 +421,7 @@ footer img {
 }
 
 .footer {
-    padding-top:28px;
+    padding-top: 28px;
     padding-left: 200px;
     display: flex;
 }
@@ -515,6 +514,69 @@ table {
 .table3 {
     margin-left: 140px;
     margin-bottom: 50px;
+}
+
+.galochka {
+    height: 0;
+}
+
+.galochka a:before {
+    content: "";
+    position: relative;
+    left: 0px;
+}
+
+.galochka a {
+    margin-left: 320px;
+}
+
+.slide_toleft {
+    width: 34px;
+    height: 34px;
+    border-radius: 42px;
+    background-color: #52ad81;
+    border: 3px solid #b3dbc8;
+    transition: 0.5s;
+    margin-right: 120px;
+    margin-top: 40px;
+}
+
+.slide_toright {
+    width: 34px;
+    height: 34px;
+    border-radius: 42px;
+    background-color: #52ad81;
+    border: 3px solid #b3dbc8;
+    transition: 0.5s;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.slide_toleft:hover {
+    transform: scale(1.2);
+}
+
+.slide_toright:hover {
+    transform: scale(1.2);
+}
+
+.slide_toright img {
+    margin-top: 8px;
+    padding-right: 12px;
+}
+
+.slide_toleft img {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.slide_toright img {
+    transform: rotate(180deg);
+}
+
+.all_width_slide {
+    display: flex;
+    justify-content: center;
 }
 
 #th1 {
@@ -646,11 +708,11 @@ tbody {
     transition: all 0.5s ease;
 }
 
-.tableonea:hover{
+.tableonea:hover {
     border-radius: 10px;
 }
 
-.tabletwoa{
+.tabletwoa {
     margin-left: 140px;
     width: 200px;
     height: 50px;
@@ -659,11 +721,11 @@ tbody {
     transition: all 0.5s ease;
 }
 
-.tabletwoa:hover{
+.tabletwoa:hover {
     border-radius: 10px;
 }
 
-.tabletwoa a{
+.tabletwoa a {
     font-size: 23px;
     line-height: 50px;
     color: #ffffff;
@@ -673,7 +735,7 @@ tbody {
     text-decoration: none;
 }
 
-.tablethreea{
+.tablethreea {
     margin-left: 140px;
     width: 200px;
     height: 50px;
@@ -682,11 +744,11 @@ tbody {
     transition: all 0.5s ease;
 }
 
-.tablethreea:hover{
+.tablethreea:hover {
     border-radius: 10px;
 }
 
-.tablethreea a{
+.tablethreea a {
     font-size: 23px;
     line-height: 50px;
     color: #ffffff;
